@@ -1,9 +1,13 @@
 class Block extends React.Component {
-    render
+    render () {
+        return <div>Class Component</div>
+    }
 }
 
-function Block () {
-    <div>1</div>
-}
+// function Block () {
+//     <div>1</div>
+// }
 
 ReactDOM.render(<Block />, document.getElementById('root'))
+
+

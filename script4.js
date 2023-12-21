@@ -12,7 +12,7 @@ class Block extends React.Component {
 }
 
 // ReactDom.render (<div>Hello React</div>, document.getElementById('root'));
-ReactDom.render (
+ReactDOM.render(
 <div>
     <Block />
     <Block />
